@@ -1,11 +1,37 @@
-class CurriculumImplementation:
+class SharedPhilosophy:
+    def identify(self):
+        # The team will identify a shared philosophy through various discussions
+        pass
+
+class RelevantLiterature:
+    def find(self):
+        # Search for relevant literature to shape the philosophy
+        pass
+
+class SchoolGoals:
+    def develop(self):
+        # Develop appropriate and measurable goals for the school
+        pass
+
+    def plan_delivery(self):
+        # Determine how and when these goals can be appropriately offered
+        pass
+        
+ class CurriculumImplementation:
     def __init__(self, curriculum):
         self.curriculum = curriculum
+        self.shared_philosophy = SharedPhilosophy()
+        self.relevant_literature = RelevantLiterature()
+        self.school_goals = SchoolGoals()
 
-    def identify_needs(self):
+    def needs(self):
         # Identify the needs of the students and the community
         # Use data and feedback to understand these needs
-
+        self.shared_philosophy.identify()
+        self.relevant_literature.find()
+        self.school_goals.develop()
+        self.school_goals.plan_delivery()
+        
     def plan(self):
         # Identify a shared philosophy through team discussions
         # Use relevant literature to shape the philosophy
@@ -16,7 +42,7 @@ class CurriculumImplementation:
         # Design the curriculum based on the identified needs and planned goals
         # Ensure the curriculum is engaging, relevant, and challenging
 
-    def assess_capabilities(self):
+    def capabilities(self):
         # Ensure the curriculum aligns with what students can handle
         # Ensure the curriculum aligns with teachers' abilities to guide the curriculum
 
