@@ -1,3 +1,4 @@
+# Survey to test the entrepreneurial attitude of the school of a learner
 import random
 
 def generate_question(prompt):
