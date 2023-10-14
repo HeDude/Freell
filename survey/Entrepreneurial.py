@@ -27,7 +27,15 @@ survey_questions = {
         # Relevance
         {"aspect": "Relevance", "prompt": "I prefer that my learning focuses on issues that interest me."},
         {"aspect": "Relevance", "prompt": "I found that my learning focuses on issues that interest me."},
+        {"aspect": "Relevance", "prompt": "I prefer that what I learn is important for my professional practice."},
+        {"aspect": "Relevance", "prompt": "I found that what I learn is important for my professional practice."},
+        {"aspect": "Relevance", "prompt": "I prefer that I learn how to improve my professional practice."},
+        {"aspect": "Relevance", "prompt": "I found that I learn how to improve my professional practice."},
+        {"aspect": "Relevance", "prompt": "I prefer that what I learn connects well with my professional practice."},
+        {"aspect": "Relevance", "prompt": "I found that what I learn connects well with my professional practice."},
         # Reflective thinking
+        {"aspect": "Reflective thinking", "prompt": "I prefer that I think critically about how I learn."},
+        {"aspect": "Reflective thinking", "prompt": "I found I think critically about how I learn."},
         {"aspect": "Reflective thinking", "prompt": "I prefer that I think critically about my own ideas."},
         {"aspect": "Reflective thinking", "prompt": "I found that I think critically about my own ideas."},
         {"aspect": "Reflective thinking", "prompt": "I prefer that I think critically about other students' ideas."},
