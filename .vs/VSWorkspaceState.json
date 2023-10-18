@@ -6,8 +6,9 @@
     "\\HELL\\Pages\\Shared",
     "\\HELL\\wwwroot",
     "\\HELL\\wwwroot\\css",
+    "\\method",
     "\\survey"
   ],
-  "SelectedNode": "\\HELL\\Pages\\Index.cshtml",
+  "SelectedNode": "\\HELL\\Pages\\Error.cshtml",
   "PreviewInSolutionExplorer": false
 }
