@@ -1,8 +1,13 @@
 {
   "ExpandedNodes": [
     "",
-    "\\HELL"
+    "\\HELL",
+    "\\HELL\\Pages",
+    "\\HELL\\Pages\\Shared",
+    "\\HELL\\wwwroot",
+    "\\HELL\\wwwroot\\css",
+    "\\survey"
   ],
-  "SelectedNode": "\\Learning Goal_Type",
+  "SelectedNode": "\\HELL\\Pages\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }
