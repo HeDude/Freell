@@ -1,14 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\HELL",
-    "\\HELL\\Pages",
-    "\\HELL\\Pages\\Shared",
-    "\\HELL\\wwwroot",
-    "\\HELL\\wwwroot\\css",
     "\\method",
-    "\\survey"
+    "\\survey",
+    "\\website"
   ],
-  "SelectedNode": "\\HELL\\Pages\\Error.cshtml",
   "PreviewInSolutionExplorer": false
 }
