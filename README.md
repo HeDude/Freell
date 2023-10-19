@@ -176,6 +176,6 @@ Validation Failed: A lesson must have at least one participant.
 ```
 ### New Natural dialogue
 ```
-AI: The validation failed because a lesson must have at least one participant. 
+AI: The validation of a lesson now failed because a lesson must have at least one participant. 
 Would you like to add a participant or choose a different action?
 ```
