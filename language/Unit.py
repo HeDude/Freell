@@ -1,4 +1,8 @@
+from Actor import Actor
+from Action import Action
 from Method import Method
+from Prerequisite import Prerequisite
+from Resource import Resource
 from Skill import Skill
 
 class Unit:
@@ -10,6 +14,7 @@ class Unit:
         self.actors = []
         self.actions = []
         self.methods = []
+        self.prerequisites = []
         self.resources = []
         self.skills = []
 
@@ -24,6 +29,9 @@ class Unit:
 
     def add_method(self, method):
         self.skills.append(method)
+
+    def add_prerequisite(self, prerequisite):
+        self.prerequisites.append(prerequisite)
 
     def add_resource(self, resource):
         self.skills.append(resource)
