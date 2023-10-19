@@ -1,9 +1,17 @@
 {
   "ExpandedNodes": [
     "",
-    "\\method",
-    "\\survey",
-    "\\website"
+    "\\website",
+    "\\website\\obj\\Debug\\net6.0\\ref",
+    "\\website\\obj\\Debug\\net6.0\\refint",
+    "\\website\\obj\\Debug\\net6.0\\scopedcss",
+    "\\website\\obj\\Debug\\net6.0\\scopedcss\\projectbundle",
+    "\\website\\obj\\Release\\net6.0",
+    "\\website\\obj\\Release\\net6.0\\ref",
+    "\\website\\obj\\Release\\net6.0\\refint",
+    "\\website\\obj\\Release\\net6.0\\staticwebassets",
+    "\\website\\Pages\\Shared"
   ],
+  "SelectedNode": "\\website\\Freell.csproj",
   "PreviewInSolutionExplorer": false
 }

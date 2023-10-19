@@ -1,11 +1,36 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "Irony/1.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Irony.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Irony.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Irony/1.2.0": {
+      "sha512": "xobL8fbz01pOacoWPjBw1K1tT4Sell3n0nQlutAGpqJ7R3sEoL+pB1gkWUBm1NcfQ7EAyPfIcAt4LVvAQhB7tg==",
+      "type": "package",
+      "path": "irony/1.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "irony.1.2.0.nupkg.sha512",
+        "irony.nuspec",
+        "lib/netstandard2.0/Irony.dll"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "Irony >= 1.2.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\slagt\\.nuget\\packages\\": {},
@@ -14,11 +39,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\slagt\\source\\repos\\Freell\\website\\website.csproj",
-      "projectName": "website",
-      "projectPath": "C:\\Users\\slagt\\source\\repos\\Freell\\website\\website.csproj",
+      "projectUniqueName": "C:\\Users\\slagt\\source\\repos\\Freell\\interpreter\\interpreter.csproj",
+      "projectName": "interpreter",
+      "projectPath": "C:\\Users\\slagt\\source\\repos\\Freell\\interpreter\\interpreter.csproj",
       "packagesPath": "C:\\Users\\slagt\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\slagt\\source\\repos\\Freell\\website\\obj\\",
+      "outputPath": "C:\\Users\\slagt\\source\\repos\\Freell\\interpreter\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -51,6 +76,12 @@
     "frameworks": {
       "net6.0": {
         "targetAlias": "net6.0",
+        "dependencies": {
+          "Irony": {
+            "target": "Package",
+            "version": "[1.2.0, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
@@ -63,9 +94,6 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
-          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }

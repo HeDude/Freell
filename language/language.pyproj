@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{ece4b47b-7909-46fd-ae36-365b835de7b2}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile />
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="base\Type.py" />
+    <Compile Include="lib\Curriculum.py" />
+    <Compile Include="lib\Learning activity.py" />
+    <Compile Include="lib\Learning effective.py" />
+    <Compile Include="lib\Learning entrepreneurial.py" />
+    <Compile Include="lib\Learning game.py" />
+    <Compile Include="lib\Learning goal type.py" />
+    <Compile Include="lib\Learning playful.py" />
+    <Compile Include="lib\Learning proces.py" />
+    <Compile Include="lib\Learning style survey.py" />
+    <Compile Include="lib\Learning style.py" />
+    <Compile Include="lib\Lesson.py" />
+    <Compile Include="lib\method\Codeniacs.py" />
+    <Compile Include="lib\method\Selfregulation.py" />
+    <Compile Include="lib\Montesorri.py" />
+    <Compile Include="lib\Organizational form.py" />
+    <Compile Include="lib\Pedagogical method.py" />
+    <Compile Include="lib\Portfolio.py" />
+    <Compile Include="lib\Prompting.py" />
+    <Compile Include="lib\Research cycle.py" />
+    <Compile Include="lib\survey\ATTLS.py" />
+    <Compile Include="lib\survey\Colles.py" />
+    <Compile Include="lib\survey\Critical incidents.py" />
+    <Compile Include="lib\survey\Entrepreneurial school.py" />
+    <Compile Include="type\Action.py" />
+    <Compile Include="type\Actor.py" />
+    <Compile Include="type\Method.py" />
+    <Compile Include="type\Prerequisite.py" />
+    <Compile Include="type\Resource.py" />
+    <Compile Include="type\Skill.py" />
+    <Compile Include="type\Unit.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="base" />
+    <Folder Include="lib" />
+    <Folder Include="lib\method" />
+    <Folder Include="lib\survey" />
+    <Folder Include="type" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
