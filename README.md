@@ -41,6 +41,12 @@ The interaction between Freell and AI's will be thoroughly examined
 to ensure that learning prompting is accurately executed, 
 thereby validating Freell’s practicality in real-world educational settings.
 
+We will engage artificial intelligence to translate various forms of learning or education descriptions into Freell, 
+and subsequently reconstruct them from Freell definitions
+to ascertain if the essence of learning or education remains intact. 
+This challenge aims to rigorously test the semantic integrity and adaptability of Freell
+in capturing and translating the core principles of learning and education across different descriptive frameworks.
+
 This multi-faceted testing approach aims to furnish a comprehensive validation framework, 
 ensuring that Freell not only adheres to theoretical computational principles 
 but also seamlessly integrates with existing educational standards and platforms, 
