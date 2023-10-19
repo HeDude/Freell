@@ -112,7 +112,6 @@ fostering a conducive and effective learning environment.
 ##  Example
 ### Natural dialogue
 ```
-Natural dialogue
 Human: I want to build something in learning or teaching where you can add or remove a participant.
 AI:    Understood. So, we're looking at a scenario where there's a learning or teaching environment, 
        and participants can join or leave, correct?
@@ -147,6 +146,36 @@ The unit `lesson` exists but is now empty of participants.
 ```
 ### Respons Natural dialogue
 ```
-The learning unit, as we call it, lesson exists, but it has no participants at the moment.
+AI:   The learning unit, as we call it, lesson exists, but it has no participants at the moment.
 Is that what you want?
+Human: No! I do not want a lesson without a person. A lesson without any person should not be allowed!
+AI:    I understand your concern. A lesson with no participants doesn't serve its purpose. We can ensure that 
+       there is at least one participant in a lesson at all times. Shall we proceed with this adjustment?
+Human: Yes, please make that adjustment.
+```
+### New prompting
+```
+Ensure at least one participant is present in the lesson at all times.
+```
+### New Freell declaration
+```
+lesson = new Unit;
+person = new Actor;
+lesson.participants = {person};  // Desired state with person
+// Validating the presence of at least one participant
+lesson.validate = function() {
+    return this.participants.length > 0;
+};
+If `lesson.participants = {};` is attempted,
+Feedback:
+Validation Failed: A lesson must have at least one participant.
+```
+### New respons prompting
+```
+Validation Failed: A lesson must have at least one participant.
+```
+### New Natural dialogue
+```
+The validation failed because a lesson must have at least one participant. 
+Would you like to add a participant or choose a different action?
 ```
