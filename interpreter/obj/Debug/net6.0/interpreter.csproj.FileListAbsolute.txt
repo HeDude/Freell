@@ -1,0 +1,12 @@
+C:\Users\slagt\source\repos\Freell\interpreter\bin\Debug\net6.0\interpreter.deps.json
+C:\Users\slagt\source\repos\Freell\interpreter\bin\Debug\net6.0\interpreter.dll
+C:\Users\slagt\source\repos\Freell\interpreter\bin\Debug\net6.0\interpreter.pdb
+C:\Users\slagt\source\repos\Freell\interpreter\obj\Debug\net6.0\interpreter.csproj.AssemblyReference.cache
+C:\Users\slagt\source\repos\Freell\interpreter\obj\Debug\net6.0\interpreter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\slagt\source\repos\Freell\interpreter\obj\Debug\net6.0\interpreter.AssemblyInfoInputs.cache
+C:\Users\slagt\source\repos\Freell\interpreter\obj\Debug\net6.0\interpreter.AssemblyInfo.cs
+C:\Users\slagt\source\repos\Freell\interpreter\obj\Debug\net6.0\interpreter.csproj.CoreCompileInputs.cache
+C:\Users\slagt\source\repos\Freell\interpreter\obj\Debug\net6.0\interpreter.dll
+C:\Users\slagt\source\repos\Freell\interpreter\obj\Debug\net6.0\refint\interpreter.dll
+C:\Users\slagt\source\repos\Freell\interpreter\obj\Debug\net6.0\interpreter.pdb
+C:\Users\slagt\source\repos\Freell\interpreter\obj\Debug\net6.0\ref\interpreter.dll

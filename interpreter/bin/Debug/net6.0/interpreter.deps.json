@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "interpreter/1.0.0": {
+        "dependencies": {
+          "Irony": "1.2.0"
+        },
+        "runtime": {
+          "interpreter.dll": {}
+        }
+      },
+      "Irony/1.2.0": {
+        "runtime": {
+          "lib/netstandard2.0/Irony.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "interpreter/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Irony/1.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xobL8fbz01pOacoWPjBw1K1tT4Sell3n0nQlutAGpqJ7R3sEoL+pB1gkWUBm1NcfQ7EAyPfIcAt4LVvAQhB7tg==",
+      "path": "irony/1.2.0",
+      "hashPath": "irony.1.2.0.nupkg.sha512"
+    }
+  }
+}
