@@ -112,26 +112,41 @@ fostering a conducive and effective learning environment.
 ##  Example
 ### Natural dialogue
 ```
+Natural dialogue
 Human: I want to build something in learning or teaching where you can add or remove a participant.
 AI:    Understood. So, we're looking at a scenario where there's a learning or teaching environment, 
        and participants can join or leave, correct?
 Human: Yes, exactly!
 AI:    Great. Let's represent the learning or teaching environment as "lesson" and a participant as "person". 
-       When a participant joins, we'll add them to the lesson, and when they leave, we'll remove them from the lesson.
+       We'll describe the desired state of the lesson, whether a person is part of it or not.
        Does that sound good?
 Human: Yes, that's what I am looking for.
 ```
 ### Prompting
 ```
-Create Unit called lesson.
-Create Actor called person.
-Add person to lesson.
-Remove person from lesson.
+Specify the desired state of the lesson with or without person.
 ```
 ### Freell
 ```
 lesson = new Unit;
 person = new Actor;
-lesson += person;
-lesson -= person;
+lesson.participants = {person};  // Desired state with person
+or
+lesson.participants = {};  // Desired state without person
+```
+### Prompting output as feedback by Freell
+```
+If `lesson.participants = {};` is provided,
+
+Feedback:
+The unit `lesson` exists but is now empty of participants.
+```
+### Respons prompting
+```
+The unit `lesson` exists but is now empty of participants.
+```
+### Respons Natural dialogue
+```
+The learning unit, as we call it, lesson exists, but it has no participants at the moment.
+Is that what you want?
 ```
