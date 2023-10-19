@@ -31,13 +31,13 @@ against predefined benchmarks.
 
 Freell will be employed to design courses within open ELO environments like Moodle. 
 User acceptance tests will gauge the satisfaction and efficacy from an end-user perspective. 
-Concurrently, the correct prompting utilization by Learning Logic Modules (LLMs) will be assessed 
+Concurrently, the correct prompting utilization by AI will be assessed 
 through a series of specified tests, ensuring an accurate reflection of the Freell syntax 
 in promoting learning objectives.
 
-### Learning Logic Module (LLM) Interaction Testing:
+### AI Interaction Testing:
 
-The interaction between Freell and LLMs will be thoroughly examined 
+The interaction between Freell and AI's will be thoroughly examined 
 to ensure that learning prompting is accurately executed, 
 thereby validating Freell’s practicality in real-world educational settings.
 
