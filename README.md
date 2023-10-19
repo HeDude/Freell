@@ -67,7 +67,25 @@ but also seamlessly integrates with existing educational standards and platforms
 fostering a conducive and effective learning environment.
 
 ##  Example
-
+### Natural dialogue
+```
+Human: I want to build something in learning or teaching where you can add or remove a participant.
+AI:    Understood. So, we're looking at a scenario where there's a learning or teaching environment, 
+       and participants can join or leave, correct?
+Human: Yes, exactly!
+AI:    Great. Let's represent the learning or teaching environment as "lesson" and a participant as "person". 
+       When a participant joins, we'll add them to the lesson, and when they leave, we'll remove them from the lesson.
+       Does that sound good?
+Human: Yes, that's what I am looking for.
+```
+### Prompting
+```
+Create Unit called lesson.
+Create Actor called person.
+Add person to lesson.
+Remove person from lesson.
+```
+### Freell
 ```
 lesson = new Unit;
 person = new Actor;
