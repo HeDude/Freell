@@ -51,3 +51,12 @@ This multi-faceted testing approach aims to furnish a comprehensive validation f
 ensuring that Freell not only adheres to theoretical computational principles 
 but also seamlessly integrates with existing educational standards and platforms, 
 fostering a conducive and effective learning environment.
+
+##  Example
+
+```
+lesson = new Unit;
+person = new Actor;
+lesson += person;
+lesson -= person;
+```
