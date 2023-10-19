@@ -9,7 +9,7 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "language", "language\langua
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "website", "website\website.csproj", "{B054EBD6-CC52-49DF-BFB6-D0B3AEFDA351}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unittest", "Unittest\Unittest.csproj", "{2C48F45B-7BB1-4048-BD80-E84D8E49F0CE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "unittest", "Unittest\unittest.csproj", "{2C48F45B-7BB1-4048-BD80-E84D8E49F0CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

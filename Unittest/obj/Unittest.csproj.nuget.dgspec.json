@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\slagt\\source\\repos\\Freell\\Unittest\\Unittest.csproj": {}
+    "C:\\Users\\slagt\\source\\repos\\Freell\\Unittest\\unittest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\slagt\\source\\repos\\Freell\\Unittest\\Unittest.csproj": {
+    "C:\\Users\\slagt\\source\\repos\\Freell\\Unittest\\unittest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\slagt\\source\\repos\\Freell\\Unittest\\Unittest.csproj",
-        "projectName": "Unittest",
-        "projectPath": "C:\\Users\\slagt\\source\\repos\\Freell\\Unittest\\Unittest.csproj",
+        "projectUniqueName": "C:\\Users\\slagt\\source\\repos\\Freell\\Unittest\\unittest.csproj",
+        "projectName": "unittest",
+        "projectPath": "C:\\Users\\slagt\\source\\repos\\Freell\\Unittest\\unittest.csproj",
         "packagesPath": "C:\\Users\\slagt\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\slagt\\source\\repos\\Freell\\Unittest\\obj\\",
         "projectStyle": "PackageReference",

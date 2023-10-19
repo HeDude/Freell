@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zts/UbSLdJqiu2cugyVEg/TU550XHRbOOLYyUR1OnUZcvtFz504XDw8BueTwvroGi8Wc2Xcjn+ej7oTKFfMtWQ==",
+  "dgSpecHash": "h/b+B/WLKhRHXY3AtL+dru+ZRefCTuHpuF6C1ddMLf+BICwhRnI8EHqDqUhBNnw2s1BBV2mOSR3vrdQWDZrFmQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\slagt\\source\\repos\\Freell\\Unittest\\Unittest.csproj",
+  "projectFilePath": "C:\\Users\\slagt\\source\\repos\\Freell\\Unittest\\unittest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\slagt\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "C:\\Users\\slagt\\.nuget\\packages\\microsoft.codecoverage\\17.5.0\\microsoft.codecoverage.17.5.0.nupkg.sha512",
