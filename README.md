@@ -1,9 +1,9 @@
 > For real
 # Free learning language
 
-**Freell** (pronounced as **'For real'**) is a language that describes learning in a way that expert rules can be understand without errors by AI.
+**Freell** (pronounced as **'for real'**) is a language that describes learning in a way that expert rules can be understand without errors by AI.
 
-Education designers or researchers can **for real** formulate their ideas or findings in a way that can be implemented in programs.
+Education designers or researchers can formulate their ideas or findings in a way that can be implemented in programs.
 
 **Freell**  is designed to promote free learning, adhering strictly to scientifically substantiated reasons for any form of imposition.
 Therefore, it doesn't arbitrarily structure learning units unless strictly necessary. 
