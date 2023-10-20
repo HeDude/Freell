@@ -23,7 +23,6 @@ namespace Freell
             var portfolio = ToTerm("Portfolio");
             var prerequisite = ToTerm("Prerequisite");
             var resource = ToTerm("Resource");
-            var skill = ToTerm("Skill");
             var unit = ToTerm("Unit");
             var assignment = ToTerm("=");
             var terminator = ToTerm(";");
