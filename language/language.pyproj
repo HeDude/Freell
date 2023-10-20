@@ -46,6 +46,7 @@
     <Compile Include="type\Action.py" />
     <Compile Include="type\Actor.py" />
     <Compile Include="type\Method.py" />
+    <Compile Include="type\Portfolio.py" />
     <Compile Include="type\Prerequisite.py" />
     <Compile Include="type\Resource.py" />
     <Compile Include="type\Skill.py" />

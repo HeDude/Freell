@@ -20,6 +20,7 @@ namespace Freell
             var action = ToTerm("Action");
             var actor = ToTerm("Actor");
             var method = ToTerm("Method");
+            var portfolio = ToTerm("Portfolio");
             var prerequisite = ToTerm("Prerequisite");
             var resource = ToTerm("Resource");
             var skill = ToTerm("Skill");
@@ -33,7 +34,7 @@ namespace Freell
             var declaration = new NonTerminal("declaration");
 
             // Define Rules
-            type.Rule = action | actor | method | prerequisite | resource | skill | unit;
+            type.Rule = action | actor | method | portfolio | prerequisite | resource | skill | unit;
             declaration.Rule = identifier + assignment + "new" + type + terminator;
             statement.Rule = declaration;
 
