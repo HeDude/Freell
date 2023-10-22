@@ -16,6 +16,9 @@ When there is an expectation for the learner to showcase what they have learned,
 ## Action
 As we move toward result-oriented education, Freell identifies **Action** as the next level. In this type, the learner must demonstrate concrete actions or behaviors to show that learning (getting certain skills, learning goals, competences, attitudes, knowledge ectera) has occurred.
 
+## Prerequiaite
+Often a educational organisation will demands certain starting characteristics of the learner to allow him or her to participate. Mostly about the skills the learner already has.
+
 ## Method
 The final type before we can no longer term the learning as free is "Method." This comes into play when there are specific methodologies that the learner is expected to follow. Of course Freell will use strategies as well, but will tailor it to the learner in this way for example
 * _Entrepreneurial Learning_: Suited for the productive learning style.
