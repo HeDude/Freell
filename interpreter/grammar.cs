@@ -1,16 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 using Irony.Parsing;
 
 namespace Freell
 {
-    // Define the grammar of the Freell language
-    // The grammar starts with the very simple language of the form: identifier = new type;
-    // where "type" can be any of the defined terminal types like "Action," "Actor," etc.
     public class FreellGrammar : Grammar
     {
         public FreellGrammar() : base(false)  // false for case sensitivity
@@ -21,24 +13,39 @@ namespace Freell
             var actor = ToTerm("Actor");
             var method = ToTerm("Method");
             var portfolio = ToTerm("Portfolio");
-            var prerequisite = ToTerm("Prerequisite");
-            var resource = ToTerm("Resource");
-            var unit = ToTerm("Unit");
-            var assignment = ToTerm("=");
-            var terminator = ToTerm(";");
+            var a = ToTerm("a");
+            var an = ToTerm("an");
+            var period = ToTerm(".");  // Terminal for period
 
             // Define Non-terminals
-            var statement = new NonTerminal("statement");
+            var startStatement = new NonTerminal("start-statement");
+            var article = new NonTerminal("article");
             var type = new NonTerminal("type");
             var declaration = new NonTerminal("declaration");
 
             // Define Rules
-            type.Rule = action | actor | method | portfolio | prerequisite | resource | skill | unit;
-            declaration.Rule = identifier + assignment + "new" + type + terminator;
-            statement.Rule = declaration;
+            article.Rule = a | an;
+            type.Rule = action | actor | method | portfolio;
+
+            // Update the BNF-like rule for the start statement to include period
+            startStatement.Rule = ToTerm("The root is") + article + type + ToTerm("called") + identifier + period;
 
             // Set the root non-terminal
-            this.Root = statement;
+            this.Root = startStatement;
+
+            // Semantic action to enforce 'a' with 'Method' and 'Portfolio', 'an' with 'Action' and 'Actor'
+            startStatement.AstConfig.NodeCreator = (context, parseNode) =>
+            {
+                var articleNode = parseNode.ChildNodes[1];
+                var typeNode = parseNode.ChildNodes[2];
+
+                if ((articleNode.Term.Name == "a" && (typeNode.Term.Name == "Action" || typeNode.Term.Name == "Actor")) ||
+                    (articleNode.Term.Name == "an" && (typeNode.Term.Name == "Method" || typeNode.Term.Name == "Portfolio")))
+                {
+                    // Error: Incorrect article used
+                    context.AddParserMessage(new ParserMessage(ParserErrorLevel.Error, parseNode.Span.Location, "Incorrect article used with type."));
+                }
+            };
         }
     }
 }
