@@ -8,7 +8,8 @@ namespace Freell
         public FreellGrammar() : base(false)  // false for case sensitivity
         {
             // Define Terminals
-            var identifier = new IdentifierTerminal("identifier");
+            var educationDesignName = new IdentifierTerminal("educationDesignName");
+            var rootName = new IdentifierTerminal("rootName");
             var action = ToTerm("Action");
             var actor = ToTerm("Actor");
             var method = ToTerm("Method");
@@ -19,23 +20,30 @@ namespace Freell
             var period = ToTerm(".");  // Terminal for period
 
             // Define Non-terminals
-            var startStatement = new NonTerminal("start-statement");
+            var educationDesignStatement = new NonTerminal("education-design-statement");
+            var rootStatement = new NonTerminal("root-statement");  // Renamed from startStatement
             var article = new NonTerminal("article");
             var type = new NonTerminal("type");
-            var declaration = new NonTerminal("declaration");
+            var program = new NonTerminal("program");
 
             // Define Rules
             article.Rule = a | an;
-            type.Rule = action | actor | method | portfolio | prerequisite ;
+            type.Rule = action | actor | method | portfolio | prerequisite;
 
-            // Update the BNF-like rule for the start statement to include period
-            startStatement.Rule = ToTerm("The root is") + article + type + ToTerm("called") + identifier + period;
+            // Define the BNF-like rule for the education design statement
+            educationDesignStatement.Rule = ToTerm("This education design is called") + educationDesignName + period;
+
+            // Update the BNF-like rule for the root statement to include period
+            rootStatement.Rule = ToTerm("The root is") + article + type + ToTerm("called") + rootName + period;
+
+            // Define the BNF-like rule for the program
+            program.Rule = educationDesignStatement + rootStatement;
 
             // Set the root non-terminal
-            this.Root = startStatement;
+            this.Root = program;
 
             // Semantic action to enforce 'a' with 'Method' and 'Portfolio', 'an' with 'Action' and 'Actor'
-            startStatement.AstConfig.NodeCreator = (context, parseNode) =>
+            rootStatement.AstConfig.NodeCreator = (context, parseNode) =>
             {
                 var articleNode = parseNode.ChildNodes[1];
                 var typeNode = parseNode.ChildNodes[2];
