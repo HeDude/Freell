@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\slagt\\source\\repos\\Freell\\website\\website.csproj",
+      "projectUniqueName": "D:\\repos\\Freell\\website\\website.csproj",
       "projectName": "website",
-      "projectPath": "C:\\Users\\slagt\\source\\repos\\Freell\\website\\website.csproj",
+      "projectPath": "D:\\repos\\Freell\\website\\website.csproj",
       "packagesPath": "C:\\Users\\slagt\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\slagt\\source\\repos\\Freell\\website\\obj\\",
+      "outputPath": "D:\\repos\\Freell\\website\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NWt63kqmhMxZ9u2JdSD1sI/IK5r6+VrQ9nNRCCT5B+a6z73CexX+gZfXq/a1n18IxtgCUbeaw95KDSrMQaov6g==",
+  "dgSpecHash": "IW2DCvNxT6KQqFPjuekVrY4qcas1CBLEsM9IjxCQ6UofT0CCgNFvB1pDiNjWNoMUcXTibMbtN6BBzxjcNbpUVA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\slagt\\source\\repos\\Freell\\interpreter\\interpreter.csproj",
+  "projectFilePath": "D:\\repos\\Freell\\interpreter\\interpreter.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\slagt\\.nuget\\packages\\irony\\1.2.0\\irony.1.2.0.nupkg.sha512"
   ],

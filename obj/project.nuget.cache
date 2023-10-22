@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ug6BxVjyiPqByK39dc49gpUfkeF8YLV2M7oXZbo+S7IMkQ2nx8VpFpGV4o2bFoaGSH/rLqnYvFKNNGtz00VmYA==",
+  "dgSpecHash": "X3OaW3ShpGitvV7SzC5YbE+jy0okDufGXY1T+Q9p2q1tvYCR9bbf6dCn6lPy3TadY6NubebwZiGBYtqIeoMlow==",
   "success": true,
-  "projectFilePath": "C:\\Users\\slagt\\source\\repos\\Freell\\Freell.csproj",
+  "projectFilePath": "D:\\repos\\Freell\\Freell.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\slagt\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.4\\microsoft.visualstudio.azure.containers.tools.targets.1.19.4.nupkg.sha512"
   ],

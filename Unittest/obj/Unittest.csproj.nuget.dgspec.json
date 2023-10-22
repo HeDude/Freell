@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\slagt\\source\\repos\\Freell\\Unittest\\unittest.csproj": {}
+    "D:\\repos\\Freell\\Unittest\\unittest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\slagt\\source\\repos\\Freell\\Unittest\\unittest.csproj": {
+    "D:\\repos\\Freell\\Unittest\\unittest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\slagt\\source\\repos\\Freell\\Unittest\\unittest.csproj",
+        "projectUniqueName": "D:\\repos\\Freell\\Unittest\\unittest.csproj",
         "projectName": "unittest",
-        "projectPath": "C:\\Users\\slagt\\source\\repos\\Freell\\Unittest\\unittest.csproj",
+        "projectPath": "D:\\repos\\Freell\\Unittest\\unittest.csproj",
         "packagesPath": "C:\\Users\\slagt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\slagt\\source\\repos\\Freell\\Unittest\\obj\\",
+        "outputPath": "D:\\repos\\Freell\\Unittest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
