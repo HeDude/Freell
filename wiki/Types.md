@@ -1,8 +1,22 @@
 # Introduction
-Freell stands for Free Learning Language and aims to provide the maximum freedom in the learning process. This wiki explores the various types in which Freell categorizes the learning experience, from the most free to the most structured.
+Freell stands for Free Learning Language and aims to provide the maximum freedom in the learning process.
+This wiki explores the various types in which Freell categorizes the learning experience,
+from the most free to the most structured.
+An education design starts with choosing the type of the root object
+to which the learning branches and the learning leaves are connected.
+This choice is forced upon an education designer 
+to invite thinking carefully about the amount of freedom which is granted to the learner.
 
 # Types
-The level of freedom determines the need for certain types to be used in Freell.
+The level of freedom determines the type of the root object to be used in Freell.
+This does not mean that the less free types can not be used as part of that root object.
+It tells Freell mainly how to interpret the branches and leaves based on the type of the root object.
+For example, if one uses Portfolio as the type of the root object and uses for example a Resource
+as a child object, Freell will interpret this Resource in the light of the choice for a
+education design in which the learner just learns and afterwards reports his learning
+in this case by mentioning the resources it has used.
+While if Resource was the type of the root object,
+Freell will see the resource as a model, hint or example for the learner.
 
 ## None
 The ultimate freedom in learning is when the learner designs their own learning experience.

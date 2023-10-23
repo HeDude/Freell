@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "K9wzVLUfN0d8bvHzRH0zbIDL3FhABwsLP7LpwSFihQdNXgoPjiQxjjEbkxaesJqdKt3pkoTrB2Q2aRZYedB2nw==",
+  "dgSpecHash": "hgbNTBqbsxuN0QhDqUCdoo5XKtUBgULT3+fmsp9v1K8eUTpEivRVaKIDpgH1exv4pxYV4icjfstYSv5bBbJ2+g==",
   "success": true,
   "projectFilePath": "D:\\repos\\Freell\\Unittest\\unittest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\slagt\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
+    "C:\\Users\\slagt\\.nuget\\packages\\irony\\1.2.0\\irony.1.2.0.nupkg.sha512",
     "C:\\Users\\slagt\\.nuget\\packages\\microsoft.codecoverage\\17.5.0\\microsoft.codecoverage.17.5.0.nupkg.sha512",
     "C:\\Users\\slagt\\.nuget\\packages\\microsoft.net.test.sdk\\17.5.0\\microsoft.net.test.sdk.17.5.0.nupkg.sha512",
     "C:\\Users\\slagt\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",

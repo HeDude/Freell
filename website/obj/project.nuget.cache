@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "jQ5j5bHBMVy5O+qOn5vbMFoqkrnb4hyg87eR9w9f6xDbfZq/cebAzDTDqtmYQfYQUYJ2x0KJSYZb5+Ib8TqDNg==",
+  "dgSpecHash": "exRyn8W90qqdbwDzKlHIXNHaATz39Nu69UEMMmJ1/RiZ6oX3QLk0o3+qbwZGCqZJwF9AsdDzt+Un+XOfwY5pqg==",
   "success": true,
   "projectFilePath": "D:\\repos\\Freell\\website\\website.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\slagt\\.nuget\\packages\\irony\\1.2.0\\irony.1.2.0.nupkg.sha512"
+  ],
   "logs": []
 }

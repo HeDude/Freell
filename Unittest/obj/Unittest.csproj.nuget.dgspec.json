@@ -45,6 +45,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Irony": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
             "MSTest.TestAdapter": {
               "target": "Package",
               "version": "[2.2.10, )"
