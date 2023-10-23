@@ -1,10 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "exRyn8W90qqdbwDzKlHIXNHaATz39Nu69UEMMmJ1/RiZ6oX3QLk0o3+qbwZGCqZJwF9AsdDzt+Un+XOfwY5pqg==",
+  "dgSpecHash": "2tEMqwxjT/BRZN4AfL+jg8LJJ1cr8eJsZ9ijSUb3DsyVkPx2z4lBj8B297UrMLeUdXxYke+Bpb4lR/mEtlK9ug==",
   "success": true,
   "projectFilePath": "D:\\repos\\Freell\\website\\website.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\slagt\\.nuget\\packages\\irony\\1.2.0\\irony.1.2.0.nupkg.sha512"
+    "C:\\Users\\slagt\\.nuget\\packages\\irony\\1.2.0\\irony.1.2.0.nupkg.sha512",
+    "C:\\Users\\slagt\\.nuget\\packages\\microsoft.codecoverage\\17.5.0\\microsoft.codecoverage.17.5.0.nupkg.sha512",
+    "C:\\Users\\slagt\\.nuget\\packages\\microsoft.net.test.sdk\\17.5.0\\microsoft.net.test.sdk.17.5.0.nupkg.sha512",
+    "C:\\Users\\slagt\\.nuget\\packages\\microsoft.testplatform.objectmodel\\17.5.0\\microsoft.testplatform.objectmodel.17.5.0.nupkg.sha512",
+    "C:\\Users\\slagt\\.nuget\\packages\\microsoft.testplatform.testhost\\17.5.0\\microsoft.testplatform.testhost.17.5.0.nupkg.sha512",
+    "C:\\Users\\slagt\\.nuget\\packages\\mstest.testframework\\2.2.10\\mstest.testframework.2.2.10.nupkg.sha512",
+    "C:\\Users\\slagt\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\slagt\\.nuget\\packages\\nuget.frameworks\\5.11.0\\nuget.frameworks.5.11.0.nupkg.sha512",
+    "C:\\Users\\slagt\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512"
   ],
   "logs": []
 }

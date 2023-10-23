@@ -28,7 +28,7 @@ namespace Freell
             typeWithArticle.Rule = an_action | an_actor | a_method | a_portfolio | a_prerequisite | a_resource | a_unit;
 
             // Define the BNF-like rule for the education design statement
-            educationDesignStatement.Rule = ToTerm("This education design is called") + educationDesignName + period;
+            educationDesignStatement.Rule = ToTerm("This education architecture is called") + educationDesignName + period;
 
             // Update the BNF-like rule for the root statement to include period
             rootStatement.Rule = ToTerm("The root is") + typeWithArticle + ToTerm("called") + rootName + period;

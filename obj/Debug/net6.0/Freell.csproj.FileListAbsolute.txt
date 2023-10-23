@@ -1,0 +1,8 @@
+D:\repos\Freell\obj\Debug\net6.0\Freell.csproj.AssemblyReference.cache
+D:\repos\Freell\obj\Debug\net6.0\Freell.GeneratedMSBuildEditorConfig.editorconfig
+D:\repos\Freell\obj\Debug\net6.0\Freell.AssemblyInfoInputs.cache
+D:\repos\Freell\obj\Debug\net6.0\Freell.AssemblyInfo.cs
+D:\repos\Freell\obj\Debug\net6.0\Freell.csproj.CoreCompileInputs.cache
+D:\repos\Freell\obj\Debug\net6.0\Freell.MvcApplicationPartsAssemblyInfo.cache
+D:\repos\Freell\obj\Debug\net6.0\Freell.RazorAssemblyInfo.cache
+D:\repos\Freell\obj\Debug\net6.0\Freell.RazorAssemblyInfo.cs

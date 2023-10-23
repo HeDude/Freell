@@ -1,30 +1,35 @@
-﻿using System;
-using Irony.Parsing;
+﻿using Irony.Parsing;
 
 namespace Freell
 {
     public class Interpreter
     {
-        private readonly LanguageData _languageData;
-        private readonly Evaluator _evaluator;
+        private readonly LanguageData language;
+        private readonly Parser parser;
+        private readonly Evaluator evaluator;
 
         public Interpreter()
         {
-            var grammar   = new FreellGrammar();
-            _languageData = new LanguageData(grammar);
-            _evaluator    = new Evaluator();
+            FreellGrammar grammar = new FreellGrammar();
+            this.language = new LanguageData(grammar);
+            this.parser = new Parser(this.language);
+            this.evaluator = new Evaluator();
         }
-        public object? Interpret(string sourceCode)
+
+        public bool Interpret(string sourceCode)
         {
-            var parser = new Parser(_languageData);
-            var parseTree = parser.Parse(sourceCode);
+            ParseTree parseTree = this.parser.Parse(sourceCode);
+
             if (parseTree.HasErrors())
             {
-                throw new Exception("Syntax errors found in source code.");
+                // Handle errors here
+                return false;
             }
 
-            var result = _evaluator.Evaluate(parseTree.Root);
-            return result;
+            // Assuming parseTree is the generated ParseTreeNode
+            var result = evaluator.Evaluate(parseTree.Root);
+
+            return result is not null && (bool)result;
         }
     }
 }

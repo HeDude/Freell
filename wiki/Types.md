@@ -2,12 +2,18 @@
 Freell stands for Free Learning Language and aims to provide the maximum freedom in the learning process.
 This wiki explores the various types in which Freell categorizes the learning experience,
 from the most free to the most structured.
-An education design starts with choosing the type of the root object
-to which the learning branches and the learning leaves are connected.
-This choice is forced upon an education designer 
-to invite thinking carefully about the amount of freedom which is granted to the learner.
 
-# Types
+## Usage
+When a learner designs his own learning proces we talk about a learning architecture.
+An education architecture we get when somebody else designs the learning proces of the learner.
+In this case the declaration always starts with choosing the type of the root object
+to which the learning branches and the learning leaves are connected.
+This choice is forced upon the education architect 
+to invite thinking carefully about the amount of freedom which is granted to the learner.
+Freell can also be used to formulate expert rules to be used by Freelll
+when interpreting the architecture.
+
+## Freedom
 The level of freedom determines the type of the root object to be used in Freell.
 This does not mean that the less free types can not be used as part of that root object.
 It tells Freell mainly how to interpret the branches and leaves based on the type of the root object.
@@ -18,10 +24,7 @@ in this case by mentioning the resources it has used.
 While if Resource was the type of the root object,
 Freell will see the resource as a model, hint or example for the learner.
 
-## None
-The ultimate freedom in learning is when the learner designs their own learning experience.
-In Freell, we call this individual a "Learning Architect."
-
+# Education architecture
 ## Actor
 When a third party starts to design the learning experience, like a teacher or an educational designer, the learner’s freedom is reduced. We refer to this external influencer as an "Education Architect." The type **Actor** is needed.
 

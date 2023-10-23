@@ -1,10 +1,21 @@
-##  Education design
+# Expert rule
 Mandatory is to start the declarations with
-"This education design is called **Name**.",
+"This expert rule is called **Name**.",
+where **Name** should be a new (non existing) name of the expert rule.
+For example
+```
+This expert rule is called The Feynman Technique.
+```
+
+# Learning architecture 
+
+#  Education architecture
+Mandatory is to start the declarations with
+"This education architecture is called **Name**.",
 where **Name** should be the new (non existing) name.
 For example
 ```
-This education design is called Codeniacs.
+This education architecture is called Codeniacs.
 ```
 This statement is only mandatory when the language describes an education design,
 so when designing the learning proces of somebody else.
@@ -28,7 +39,7 @@ The root is an action called Skill.
 The root is an unit called Course.
 ```
 ```
-The root is a prerequisite called Recognition_of_prior_learning.
+The root is a prerequisite called Recognition of prior learning.
 ```
 ```
 The root is a resource called Book.
