@@ -21,10 +21,16 @@ The root is an actor called Teacher.
 The root is a portfolio called Showcase.
 ```
 ```
+The root is an action called Skill.
+```
+```
+The root is an unit called course.
+```
+```
 The root is a prerequisite called Recognition_of_prior_learning.
 ```
 ```
-The root is an action called Skill.
+The root is a resource called book.
 ```
 ```
 The root is a methode called Entrepreneurial_learning.
