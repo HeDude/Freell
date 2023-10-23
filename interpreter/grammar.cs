@@ -15,6 +15,8 @@ namespace Freell
             var method = ToTerm("Method");
             var portfolio = ToTerm("Portfolio");
             var prerequisite = ToTerm("Prerequisite");
+            var resource = ToTerm("Resource");
+            var unit = ToTerm("Unit");
             var a = ToTerm("a");
             var an = ToTerm("an");
             var period = ToTerm(".");  // Terminal for period
@@ -28,7 +30,7 @@ namespace Freell
 
             // Define Rules
             article.Rule = a | an;
-            type.Rule = action | actor | method | portfolio | prerequisite;
+            type.Rule = action | actor | method | portfolio | prerequisite | resource | unit;
 
             // Define the BNF-like rule for the education design statement
             educationDesignStatement.Rule = ToTerm("This education design is called") + educationDesignName + period;
@@ -48,8 +50,8 @@ namespace Freell
                 var articleNode = parseNode.ChildNodes[1];
                 var typeNode = parseNode.ChildNodes[2];
 
-                if ((articleNode.Term.Name == "a" && (typeNode.Term.Name == "Action" || typeNode.Term.Name == "Actor")) ||
-                    (articleNode.Term.Name == "an" && (typeNode.Term.Name == "Method" || typeNode.Term.Name == "Portfolio" || typeNode.Term.Name == "Prerequisite")))
+                if ((articleNode.Term.Name == "a" && (typeNode.Term.Name == "Action" || typeNode.Term.Name == "Actor" || typeNode.Term.Name == "Unit")) ||
+                    (articleNode.Term.Name == "an" && (typeNode.Term.Name == "Method" || typeNode.Term.Name == "Portfolio" || typeNode.Term.Name == "Prerequisite" || typeNode.Term.Name == "Resource")))
                 {
                     // Error: Incorrect article used
                     context.AddParserMessage(new ParserMessage(ParserErrorLevel.Error, parseNode.Span.Location, "Incorrect article used with type."));
