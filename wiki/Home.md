@@ -59,6 +59,29 @@ This approach not only makes the language intuitive
 but also ensures that it resonates with as many people as possible,
 regardless of their technical expertise.
 
+## Natural
+Reell is designed to mimic natural language for ease of use and readability.
+A valid statement in the Freell language has the following general rules;
+* **Case Sensitivity**: Freell is case-sensitive, 
+  which means this is not equivalent to This or tHiS.
+* **Whitespace**: Whitespace (spaces, tabs, and newlines) is generally ignored, except as it separates elements of the syntax.
+* **End of Statement**: Every statement must end with a period (.). This mimics the natural language convention of ending sentences with a period.
+
+**Identifiers**: Identifiers (Names) are used to name education architectures, units, actions, and other elements. The rules for valid identifiers are:
+* May contain alphabets (either uppercase or lowercase).
+* May contain numbers.
+* May contain underscores (_).
+* May contain hyphens (-).
+
+Examples of Valid Identifiers
+* Codeniacs
+* Name-With-Hyphen
+* Name_With_Underscore
+* NameWithNumbers123
+
+Examples of Invalid Identifiers
+* Name.With.Period (Periods are reserved for the end of statements)
+
 For more details see:
 * [Delarative](https://github.com/HeDude/Freell/wiki/Declarative)
 * [Example](https://github.com/HeDude/Freell/wiki/Example)

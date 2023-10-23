@@ -6,9 +6,10 @@ namespace Freell
     {
         public FreellGrammar() : base(false)  // false for case sensitivity
         {
-            // Define Terminals
-            var educationDesignName = new IdentifierTerminal("educationDesignName");
-            var rootName = new IdentifierTerminal("rootName");
+            var validIdentifierPattern = @"[a-zA-Z0-9_-]+";
+            var educationDesignName = new RegexBasedTerminal("educationDesignName", validIdentifierPattern);
+            var rootName = new RegexBasedTerminal("rootName", validIdentifierPattern);
+
             var an_action = ToTerm("an action");
             var an_actor = ToTerm("an actor");
             var a_method = ToTerm("a method");

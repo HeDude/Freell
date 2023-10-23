@@ -36,7 +36,7 @@ The root is a portfolio called Showcase.
 The root is an action called Skill.
 ```
 ```
-The root is an unit called Course.
+The root is a unit called Course.
 ```
 ```
 The root is a prerequisite called Recognition of prior learning.
