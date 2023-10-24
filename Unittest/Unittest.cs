@@ -14,10 +14,10 @@ namespace Freell.Tests
             string exampleCode = "This education architecture is called Codeniacs. The root is a unit called Course.";
 
             // Act
-            bool result = interpreter.Interpret(exampleCode);
+            Interpretation interpretation = interpreter.Interpret(exampleCode);
 
             // Assert
-            Assert.IsTrue(result);
+            Assert.IsTrue(interpretation.Valid);
         }
 
         [TestMethod]
@@ -36,7 +36,8 @@ namespace Freell.Tests
                 {
                     article = (type == "Action" || type == "Actor") ? "an" : "a";  // Use "an" for "Action" and "Actor"
                     string code = $"This {product} is called Codeniacs. The root is {article} {type.ToLower()} called Example.";
-                    Assert.IsTrue(interpreter.Interpret(code), $"Failed for product {product} and type {type}");
+                    Interpretation interpretation = interpreter.Interpret(code);
+                    Assert.IsTrue(interpretation.Valid, $"Failed for product {product} and type {type}");
                 }
             }
         }
@@ -53,14 +54,16 @@ namespace Freell.Tests
             foreach (string name in validNames)
             {
                 string code = $"This education architecture is called {name}. The root is a unit called Course.";
-                Assert.IsTrue(interpreter.Interpret(code), $"Failed for name {name}");
+                Interpretation interpretation = interpreter.Interpret(code);
+                Assert.IsTrue(interpretation.Valid, $"Failed for name {name}");
             }
 
             // Act & Assert for invalid names
             foreach (string name in invalidNames)
             {
                 string code = $"This education architecture is called {name}. The root is a unit called Course.";
-                Assert.IsFalse(interpreter.Interpret(code), $"Incorrectly passed for invalid name {name}");
+                Interpretation interpretation = interpreter.Interpret(code);
+                Assert.IsFalse(interpretation.Valid, $"Incorrectly passed for invalid name {name}");
             }
         }
     }

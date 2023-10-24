@@ -16,20 +16,27 @@ namespace Freell
             this.evaluator = new Evaluator();
         }
 
-        public bool Interpret(string sourceCode)
+        public Interpretation Interpret(string code)
         {
-            ParseTree parseTree = this.parser.Parse(sourceCode);
+            // Parse the code
+            var tree = this.parser.Parse(code);
 
-            if (parseTree.HasErrors())
+            // Check for errors
+            if (tree.HasErrors())
             {
-                // Handle errors here
-                return false;
+                return new Interpretation(false, evaluator.GrammarPrompts["productStatement"]);
             }
 
-            // Assuming parseTree is the generated ParseTreeNode
-            var result = evaluator.Evaluate(parseTree.Root);
+            // Evaluate the tree
+            Evaluation evaluation = this.evaluator.Evaluate(tree.Root);
 
-            return result is not null && (bool)result;
+            // Check for errors in the evaluation
+            if (!evaluation.Valid)
+            {
+                return new Interpretation(false, evaluation.Suggestion);
+            }
+
+            return new Interpretation(true, string.Empty);
         }
     }
 }

@@ -15,10 +15,10 @@ namespace Freell
             { "typeDefinition",       "For [type] use 'action', 'actor', 'method', 'portfolio', 'prerequisite', 'resource', or 'unit'." },
         };
 
-        public object? Evaluate(ParseTreeNode node)
+        public Evaluation Evaluate(ParseTreeNode node)
         {
-            // For now, simply return true to indicate that the code is valid.
-            return true;
+            // For now, simply return an Evaluation object to indicate that the code is valid.
+            return new Evaluation(true, string.Empty);
         }
     }
 }
