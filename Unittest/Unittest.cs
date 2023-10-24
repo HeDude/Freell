@@ -21,19 +21,23 @@ namespace Freell.Tests
         }
 
         [TestMethod]
-        public void TestDifferentTypes()
+        public void TestDifferentTypesAndProducts()
         {
             // Arrange
             Interpreter interpreter = new Interpreter();
             string[] types = { "Action", "Actor", "Method", "Portfolio", "Prerequisite", "Resource", "Unit" };
+            string[] products = { "education architecture", "expert rule", "learning architecture" };
             string article;
 
             // Act & Assert
-            foreach (string type in types)
+            foreach (string product in products)
             {
-                article = (type == "Action" || type == "Actor") ? "an" : "a";  // Use "an" for "Action" and "Actor"
-                string code = $"This education architecture is called Codeniacs. The root is {article} {type.ToLower()} called Example.";
-                Assert.IsTrue(interpreter.Interpret(code), $"Failed for type {type}");
+                foreach (string type in types)
+                {
+                    article = (type == "Action" || type == "Actor") ? "an" : "a";  // Use "an" for "Action" and "Actor"
+                    string code = $"This {product} is called Codeniacs. The root is {article} {type.ToLower()} called Example.";
+                    Assert.IsTrue(interpreter.Interpret(code), $"Failed for product {product} and type {type}");
+                }
             }
         }
 
@@ -59,6 +63,5 @@ namespace Freell.Tests
                 Assert.IsFalse(interpreter.Interpret(code), $"Incorrectly passed for invalid name {name}");
             }
         }
-
     }
 }

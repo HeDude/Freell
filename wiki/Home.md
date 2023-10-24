@@ -15,6 +15,7 @@ To achieve this, the language focuses on specifying the "what" of learning
 while deliberately avoiding prescriptive directions on "how" to achieve it.
 This philosophy manifests in the language's design choices,
 which are meticulously aligned to support the mission of encouraging free, effective learning.
+The language can be used to [convert](https://github.com/HeDude/Freell/wiki/Conversion) existing designs into architectures that allow more freedom in learning.
 
 ### Root
 One of the unique design features of Freell is the enforced selection of a single root object.
@@ -60,7 +61,7 @@ but also ensures that it resonates with as many people as possible,
 regardless of their technical expertise.
 
 ## Natural
-Reell is designed to mimic natural language for ease of use and readability.
+Reell is designed to mimic natural language in the form of [prompting](https://github.com/HeDude/Freell/wiki/Prompting) an AI for ease of use and readability.
 A valid statement in the Freell language has the following general rules;
 * **Case Sensitivity**: Freell is case-sensitive, 
   which means this is not equivalent to This or tHiS.
@@ -83,9 +84,11 @@ Examples of Invalid Identifiers
 * Name.With.Period (Periods are reserved for the end of statements)
 
 For more details see:
+* [Conversion](https://github.com/HeDude/Freell/wiki/Conversion)
 * [Delarative](https://github.com/HeDude/Freell/wiki/Declarative)
 * [Example](https://github.com/HeDude/Freell/wiki/Example)
 * [Free learning](https://github.com/HeDude/Freell/wiki/Free-learning)
 * [Interpreter](https://github.com/HeDude/Freell/wiki/Interpreter)
+* [Prompting](https://github.com/HeDude/Freell/wiki/Prompting)
 * [Testing](https://github.com/HeDude/Freell/wiki/Testing)
 * [Types](https://github.com/HeDude/Freell/wiki/Types)

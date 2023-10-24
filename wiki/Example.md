@@ -8,7 +8,7 @@ This expert rule is called The Feynman Technique.
 ```
 
 # Learning architecture 
-
+Added general rules for statements and corrected typo in example
 #  Education architecture
 Mandatory is to start the declarations with
 "This education architecture is called **Name**.",
