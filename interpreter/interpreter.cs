@@ -21,10 +21,12 @@ namespace Freell
             // Parse the code
             var tree = this.parser.Parse(code);
 
+            var response = new Response();
+
             // Check for errors
             if (tree.HasErrors())
             {
-                return new Interpretation(false, evaluator.GrammarPrompts["productStatement"]);
+                return new Interpretation(false, response.Get("productStatement"));
             }
 
             // Evaluate the tree
