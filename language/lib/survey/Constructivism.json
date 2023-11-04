@@ -1,0 +1,280 @@
+{
+    "Constructivism": {
+        "Relevance": [
+            {
+                "question": "I prefer that my learning focuses on issues that interest me.",
+                "responses": [
+                    "Not yet answered",
+                    "Almost never",
+                    "Seldom",
+                    "Sometimes",
+                    "Often",
+                    "Almost always"
+                ]
+            },
+            {
+                "question": "I found that my learning focuses on issues that interest me.",
+                "responses": [
+                    "Not yet answered",
+                    "Almost never",
+                    "Seldom",
+                    "Sometimes",
+                    "Often",
+                    "Almost always"
+                ]
+            },
+            {
+                "question": "I prefer that I learn how to improve my professional practice.",
+                "responses": [
+                    "Not yet answered",
+                    "Almost never",
+                    "Seldom",
+                    "Sometimes",
+                    "Often",
+                    "Almost always"
+                ]
+            },
+            {
+                "question": "I found that I learn how to improve my professional practice.",
+                "responses": [
+                    "Not yet answered",
+                    "Almost never",
+                    "Seldom",
+                    "Sometimes",
+                    "Often",
+                    "Almost always"
+                ]
+            }
+        ],
+        "Reflective thinking": [
+            {
+                "question": "I prefer that what I learn is important for my professional practice.",
+                "responses": [
+                    "Not yet answered",
+                    "Almost never",
+                    "Seldom",
+                    "Sometimes",
+                    "Often",
+                    "Almost always"
+                ]
+            },
+            {
+                "question": "I found that what I learn is important for my professional practice.",
+                "responses": [
+                    "Not yet answered",
+                    "Almost never",
+                    "Seldom",
+                    "Sometimes",
+                    "Often",
+                    "Almost always"
+                ]
+            },
+            {
+                "question": "I prefer that what I learn connects well with my professional practice.",
+                "responses": [
+                    "Not yet answered",
+                    "Almost never",
+                    "Seldom",
+                    "Sometimes",
+                    "Often",
+                    "Almost always"
+                ]
+            },
+            {
+                "question": "I found that what I learn connects well with my professional practice.",
+                "responses": [
+                    "Not yet answered",
+                    "Almost never",
+                    "Seldom",
+                    "Sometimes",
+                    "Often",
+                    "Almost always"
+                ]
+            }
+        ],
+        "Interactivity": [
+            {
+                "question": "I prefer that I learn how to improve my professional practice.",
+                "responses": [
+                    "Not yet answered",
+                    "Almost never",
+                    "Seldom",
+                    "Sometimes",
+                    "Often",
+                    "Almost always"
+                ]
+            },
+            {
+                "question": "I found that I learn how to improve my professional practice.",
+                "responses": [
+                    "Not yet answered",
+                    "Almost never",
+                    "Seldom",
+                    "Sometimes",
+                    "Often",
+                    "Almost always"
+                ]
+            },
+            {
+                "question": "I prefer that I think critically about how I learn.",
+                "responses": [
+                    "Not yet answered",
+                    "Almost never",
+                    "Seldom",
+                    "Sometimes",
+                    "Often",
+                    "Almost always"
+                ]
+            },
+            {
+                "question": "I found that I think critically about how I learn.",
+                "responses": [
+                    "Not yet answered",
+                    "Almost never",
+                    "Seldom",
+                    "Sometimes",
+                    "Often",
+                    "Almost always"
+                ]
+            }
+        ],
+        "Tutor support": [
+            {
+                "question": "I prefer that what I learn connects well with my professional practice.",
+                "responses": [
+                    "Not yet answered",
+                    "Almost never",
+                    "Seldom",
+                    "Sometimes",
+                    "Often",
+                    "Almost always"
+                ]
+            },
+            {
+                "question": "I found that what I learn connects well with my professional practice.",
+                "responses": [
+                    "Not yet answered",
+                    "Almost never",
+                    "Seldom",
+                    "Sometimes",
+                    "Often",
+                    "Almost always"
+                ]
+            },
+            {
+                "question": "I prefer that I think critically about my own ideas.",
+                "responses": [
+                    "Not yet answered",
+                    "Almost never",
+                    "Seldom",
+                    "Sometimes",
+                    "Often",
+                    "Almost always"
+                ]
+            },
+            {
+                "question": "I found that I think critically about my own ideas.",
+                "responses": [
+                    "Not yet answered",
+                    "Almost never",
+                    "Seldom",
+                    "Sometimes",
+                    "Often",
+                    "Almost always"
+                ]
+            }
+        ],
+        "Peer support": [
+            {
+                "question": "I prefer that I think critically about how I learn.",
+                "responses": [
+                    "Not yet answered",
+                    "Almost never",
+                    "Seldom",
+                    "Sometimes",
+                    "Often",
+                    "Almost always"
+                ]
+            },
+            {
+                "question": "I found that I think critically about how I learn.",
+                "responses": [
+                    "Not yet answered",
+                    "Almost never",
+                    "Seldom",
+                    "Sometimes",
+                    "Often",
+                    "Almost always"
+                ]
+            },
+            {
+                "question": "I prefer that I think critically about other students' ideas.",
+                "responses": [
+                    "Not yet answered",
+                    "Almost never",
+                    "Seldom",
+                    "Sometimes",
+                    "Often",
+                    "Almost always"
+                ]
+            },
+            {
+                "question": "I found that I think critically about other students' ideas.",
+                "responses": [
+                    "Not yet answered",
+                    "Almost never",
+                    "Seldom",
+                    "Sometimes",
+                    "Often",
+                    "Almost always"
+                ]
+            }
+        ],
+        "Interpretation": [
+            {
+                "question": "I prefer that I think critically about my own ideas.",
+                "responses": [
+                    "Not yet answered",
+                    "Almost never",
+                    "Seldom",
+                    "Sometimes",
+                    "Often",
+                    "Almost always"
+                ]
+            },
+            {
+                "question": "I found that I think critically about my own ideas.",
+                "responses": [
+                    "Not yet answered",
+                    "Almost never",
+                    "Seldom",
+                    "Sometimes",
+                    "Often",
+                    "Almost always"
+                ]
+            },
+            {
+                "question": "I prefer that I think critically about ideas in the readings.",
+                "responses": [
+                    "Not yet answered",
+                    "Almost never",
+                    "Seldom",
+                    "Sometimes",
+                    "Often",
+                    "Almost always"
+                ]
+            },
+            {
+                "question": "I found that I think critically about ideas in the readings.",
+                "responses": [
+                    "Not yet answered",
+                    "Almost never",
+                    "Seldom",
+                    "Sometimes",
+                    "Often",
+                    "Almost always"
+                ]
+            }
+        ]
+    }
+}

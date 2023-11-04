@@ -66,6 +66,47 @@ The final type before we can no longer term the learning as free is "Method." Th
 * _Design Learning_: Suited for the application-oriented learning style.
 * _Model Learning_: Suited for the reproductive learning style.
 
+# Learning architecture
+
+In a Learning Architecture, having a root object is optional.
+This is because the learner has the ultimate freedom to design their own learning path.
+In this case, the concept of freedom is at its peak because the learner is in complete control,
+thereby eliminating the backward dependencies that are often necessary
+when designing education for someone else.
+
+## Backward Dependencies
+
+Freell allows the use of a type known as 'Method.'
+While methods usually prescribe a 'how,'
+which can seem antithetical to Freell's declarative nature focused on the 'what,'
+there are exceptions.
+For instance, educational philosophies like Dalton or Montessori could be considered a 'what'
+in Freell because choosing such philosophy, profile or organization can be seen as freedom.
+For example because learning the method is wished by the learner.
+For example to become a Dalton teacher or an entrepreneur.
+
+Such a choice imposes certain prerequisites.
+It can be the choice itself that needs to be deliberate.
+Or there is a test wheter or not the learner is best suited for the philosophy.
+This introduces the first layer of backward dependency.
+
+1. **Method**: Choosing a specific educational philosophy or method often comes with its own set of beliefs or requirements, leading us to the 'Prerequisite' type.
+   
+2. **Prerequisite**: Any prerequisite naturally implies the need for an organizational unit where these prerequisites are relevant. Thus, this type introduces the 'Unit' type.
+
+3. **Unit**: A unit, being an organizational structure, implies that actions are organized in a certain manner—either sequentially over time or based on interdependencies. This necessitates the 'Action' type.
+
+4. **Action**: In education, actions must be observable. Invisible actions like thought processes or non-implemented ideas have no value in an educational context. Therefore, observable actions lead us to the 'Portfolio' type, where these actions can be showcased.
+
+5. **Portfolio**: The very act of showcasing actions implies the presence of an audience or evaluator even if in the case of a demand for reflection by the learner himself. The demand has no use if not specified who demands it. This introduces the 'Actor' type to specify for whom the portfolio is intended.
+
+6. **Actor**: Besides the Portfolio dependencie, every educational architecture means someone design the learning of someone else. So there is always an "Actor."
+
+By following this chain of backward dependencies, we can see that each type in a Freell Education Architecture triggers the necessity for other types. Each implication is not arbitrary but based on the logical progression of organizing and showcasing educational actions and activities.
+
+
+In Freell, the types and their interdependencies are carefully structured to accommodate both the freedom of the learner and the necessities of educational design. These backward dependencies are not just a structural requirement but are deeply rooted in the philosophy of what Freell aims to achieve in the realm of education.
+
 # Conclusion
 Freell aims to categorize the learning experience based on the level of freedom afforded to the learner. From designing one's own learning journey to following specific methods, Freell seeks to offer a comprehensive understanding of how freedom in learning is structured.
 
