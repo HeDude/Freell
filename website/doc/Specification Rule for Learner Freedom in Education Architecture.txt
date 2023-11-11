@@ -1,0 +1,49 @@
+Freell Language - Specification Rule for Learner Freedom in Education Architecture
+
+Specification Rule for Learner Freedom:
+
+- Mandatory Declaration: 
+  In every 'education architecture' construct, the first statement after the initial declaration 
+  must specify the main object type, which defines the learner's freedom.
+
+- Correct Format:
+  The root is a/an [Object Type] called [Name].
+
+- Example:
+  The root is an actor called Teacher.
+
+Object Types in Education Architecture:
+
+1. Actor:
+   - Description: Represents scenarios where an "Education Architect" designs the learning experience, 
+     reducing the learner's freedom. Necessary when a third party, like a teacher or educational designer, 
+     influences the learning process.
+
+2. Portfolio:
+   - Description: Implies an expectation for the learner to showcase their learning. Demands validation from 
+     an external party but allows the learner to explore freely.
+
+3. Action:
+   - Description: Focuses on result-oriented education. The learner must demonstrate concrete actions or 
+     behaviors to show learning outcomes.
+
+4. Unit:
+   - Description: Involves the division of the learning process into units by an educational designer. 
+     This structure can limit the learner's freedom, as it often doesn't align with the learner's natural 
+     development pace.
+
+5. Prerequisite:
+   - Description: Requires learners to possess certain starting skills or characteristics to participate. 
+     Typically relates to skills acquired in previous units.
+
+6. Resource:
+   - Description: Serves as a suggestion or aid that learners can consult. The use of a "Resource" is not 
+     prescriptive, allowing for a degree of freedom in how learning occurs.
+
+7. Method:
+   - Description: The final type before learning is no longer considered free. Involves specific methodologies 
+     that the learner is expected to follow. Freell tailors strategies to suit different learning styles, such as:
+     - Entrepreneurial Learning: For productive learning styles.
+     - Investigative Learning: For meaning-oriented learning styles.
+     - Design Learning: For application-oriented learning styles.
+     - Model Learning: For reproductive learning styles.

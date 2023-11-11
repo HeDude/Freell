@@ -1,0 +1,43 @@
+Freell Language - Syntax Definition for Constructs
+
+In Freell, every construct, representing a comprehensive design for a specific type of free learning block, 
+must adhere to a standardized declaration format. This format is crucial for the language to recognize and 
+categorize the construct appropriately.
+
+General Declaration Rule for Constructs:
+
+- Format: 
+  Each construct must be declared with the first statement in the format:
+  This [Construct Type] is called [Name].
+
+- Construct Types:
+  The [Construct Type] can be one of the following, based on the purpose of the construct:
+  - expert rule: For constructs focusing on specialized rules or guidelines in the learning process.
+  - education architecture: For designs that outline the structure and strategy of educational systems or programs.
+  - learning portfolio: For documenting the learning journey, experiences, and accomplishments of free learners.
+
+- Name Specification:
+  The [Name] in the declaration must be unique within the context it's used. It identifies the specific 
+  construct being defined.
+
+Example Declarations:
+
+1. Expert Rule:
+   This expert rule is called Innovative Teaching Techniques.
+
+2. Education Architecture:
+   This education architecture is called Interactive Curriculum Design.
+
+3. Learning Portfolio:
+   This learning portfolio is called John's Learning Journey.
+
+Purpose and Utilization:
+
+- This declaration syntax is mandatory for the Freell language to understand the context and category of the construct.
+- It ensures clarity and consistency in the way different types of learning blocks are defined and processed.
+
+Note:
+
+- This structured approach to defining constructs in Freell aligns with its design philosophy, emphasizing clarity, 
+  specificity, and ease of understanding for both humans and AI systems like myself.
+- It facilitates efficient parsing and interpretation of different educational constructs within the Freell programming environment.
