@@ -107,6 +107,10 @@ By following this chain of backward dependencies, we can see that each type in a
 
 In Freell, the types and their interdependencies are carefully structured to accommodate both the freedom of the learner and the necessities of educational design. These backward dependencies are not just a structural requirement but are deeply rooted in the philosophy of what Freell aims to achieve in the realm of education.
 
+# HeDude
+
+To instruct the AI we have some extra keywords and types.
+
 # Conclusion
 Freell aims to categorize the learning experience based on the level of freedom afforded to the learner. From designing one's own learning journey to following specific methods, Freell seeks to offer a comprehensive understanding of how freedom in learning is structured.
 
